@@ -1,4 +1,4 @@
-from flask import Blueprint
+from flask import Blueprint, request
 from marshmallow import ValidationError
 from sqlalchemy import func
 from sqlalchemy.orm import selectinload
